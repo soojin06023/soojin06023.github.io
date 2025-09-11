@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet" />
+    <title>FAQ</title>
+</head>
+
+<body>
+    
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="profiel.html">About me</a>
+        <a href="blog.html">Blog</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a class="active" href="FAQ.html">FAQ</a>
+        
+    </div>
+    
+    </head>
+
+    <body>
+        <section class="faq">
+            <div class="wrapper">
+                <h1>Frequently Asked Questions</h1>
+
+                <div class="faq">
+                    <button class="accordion">
+                        How can you print a document from your laptop at HZ?
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="pannel">
+                        <P>To print from your own laptop</P>
+                        <ol>
+                            <li>log in at my hz</li>
+                            <li>eddit the personal menu</li>
+                            <li>add the self sevice portal</li>
+                            <li> go to the self service portal</li>
+                            <li> click reserveren </li>
+                        </ol>
+
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <button class="accordion">
+                        How can you scan a document and send it to your laptop at HZ?
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="pannel">
+                        <p>
+                        <ol>
+                            <li>Make sure you have a sufficient amount of money on your HZ card. </li>
+                            <li>Register using your HZ pass on the RFID reader next to the printer.</li>
+                            <li>In the printer menu, select option Scan.</li>
+                            <li> Place the original sheet on the feeder or glass plate.</li>
+                            <li> Press send to me. </li>
+                            <li> Press Yes. </li>
+                            <li> Press the Start button. </li>
+                            <li> Press the green Start button on the printer to scan page by page. Once this is ready,
+                                press Start Sending.
+                            </li>
+                            <li>log out</li>
+
+                        </ol>
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <button class="accordion">
+                        How can i buy something on the HZ webshop?
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="pannel">
+                        <p>
+                        <ol>
+                            <li>log in on my hz</li>
+                            <li>click on webshop on your personal menu</li>
+                            <li>clink on the item </li>
+                            <li>go to shopping cart</li>
+                            <li>press pay</li>
+                            <li>select a payment method</li>
+                            <li>pay</li>
+                        </ol>
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <button class="accordion">
+                        How can you book a project space?
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="pannel">
+                        <P>to book a project space</P>
+                        <ol>
+                            <li>log in at my hz</li>
+                            <li>eddit the personal menu</li>
+                            <li>add the self sevice portal</li>
+                            <li> go to the self service portal</li>
+                            <li> click reserveren </li>
+                        </ol>
+
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <button class="accordion">
+                        What are the instructions if you want to park your car at the HZ parkinglot?
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="pannel">
+                        <p>
+                        <P>If you have a HZ student pass you can park your car at the following address:
+                            Poelendaelesingel, 4335 JA Middelburg. You can enter the parking lot by scanning your HZ
+                            student pass at the entrance.</P>
+                        </p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function () {
+                        this.classList.toggle("active");
+                        this.parentElement.classList.toggle("active");
+
+                        var pannel = this.nextElementSibling;
+
+                        if (pannel.style.display === "block") {
+                            pannel.style.display = "none";
+                        } else {
+                            pannel.style.display = "block";
+                        }
+                    });
+                }
+            </script>
+    </body>
+
+</html>
+
+</head>
+
+
+</html>
