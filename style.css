@@ -136,7 +136,17 @@ table {
 .img_blog {
     height: 200px;
 }
-
+/*feedback-blog*/
+.feedbackList {
+    width: 500px;
+    height: 700px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.agenda{
+    width: 500px;
+    height: 700px;
+}
 /* top navigation*/
 .topnav {
     background-color: #6a17f9;
