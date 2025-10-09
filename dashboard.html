@@ -11,12 +11,11 @@
 
 <body>
     <div class="topnav">
-        <a href="index.html">Home</a>
-        <a href="profiel.html">About me</a>
-        <a href="blog.html">Blog</a>
-        <a class="active" href="dashboard.html">Dashboard</a>
-        <a href="FAQ.html">FAQ</a>
-
+        <a href="index.html" class="navText">Home</a>
+        <a href="profiel.html" class="navText">About me</a>
+        <a href="blog.html" class="navText">Blog</a>
+        <a href="dashboard.html" class="navText active">Dashboard</a>
+        <a href="FAQ.html" class="navText">FAQ</a>
     </div>
     <h1>dashboard</h1>
     <h3>EC</h3>
@@ -211,7 +210,7 @@
         const value = document.getElementById(valueId);
 
         function update() {
-             const score = (slider.value / 100 * maxPoints).toFixed(2); // calculate actual score
+            const score = (slider.value / 100 * maxPoints).toFixed(2); // calculate actual score
             const percent = slider.value; // for gradient fill (0–100)
             slider.style.setProperty("--value", percent + "%");
             value.textContent = score + " / " + maxPoints; // display actual score
@@ -224,7 +223,7 @@
 
     // Connect both sliders
     connectSlider("ecSlider", "ecValue", 60.00);   // EC max = 60
-connectSlider("nbsaSlider", "nbsaValue", 45.00); // NBSA max = 40
+    connectSlider("nbsaSlider", "nbsaValue", 45.00); // NBSA max = 40
 </script>
 
 </html>

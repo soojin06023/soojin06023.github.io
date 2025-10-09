@@ -16,6 +16,9 @@
     width: 200px;
     height: 200px;
 }
+.my_github{
+    color: var(--text-color);
+}
 
 /*dahboard*/
 table,
@@ -136,6 +139,7 @@ table {
 .img_blog {
     height: 200px;
 }
+
 /*feedback-blog*/
 .feedbackList {
     width: 500px;
@@ -143,14 +147,30 @@ table {
     padding-left: 150px;
     padding-right: 150px;
 }
-.agenda{
+
+.agenda {
     width: 500px;
     height: 700px;
 }
+
+/*studychoice-blog*/
+.catWithBook {
+    width: 150px;
+    height: 150px;
+}
+
 /* top navigation*/
 .topnav {
     background-color: #6a17f9;
-    height: 8%;
+    height: 40px;
+}
+
+.navText {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
 }
 
 .topnav a {
